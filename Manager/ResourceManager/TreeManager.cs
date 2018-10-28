@@ -48,6 +48,5 @@ public class TreeManager : Manager {
 	public void DestroyTree()
 	{
 		DecreaseNumber ();
-		Debug.Log (count);
 	}
 }
