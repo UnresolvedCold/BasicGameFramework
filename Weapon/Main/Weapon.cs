@@ -23,7 +23,6 @@ public class Weapon : MonoBehaviour {
 
 		if ((hit.distance < range) && (hit.collider.tag.Equals ("NonUsefulResource"))) {
 
-			Debug.Log ("okay");
 			hit.collider.gameObject.GetComponent<NonUsefulResource> ().TakeDamage (damage);
 
 		} else
