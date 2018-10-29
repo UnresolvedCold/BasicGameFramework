@@ -9,3 +9,8 @@ public enum ParentNumber{
 public enum ChildNumber{
 	Wood = 1
 }
+
+public enum Weapon{
+	Axe = 1,
+	BattleHammer=2
+}
